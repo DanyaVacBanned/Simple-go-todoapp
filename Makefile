@@ -3,7 +3,7 @@ BINARY_NAME=todo-app
 
 
 build:
-	go build  ./cmd/main/main.go
+	go build -o ./build/${BINARY_NAME} ./cmd/main/main.go
 
 run: build
 	./build/${BINARY_NAME}
