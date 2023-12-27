@@ -1,0 +1,4 @@
+storage.db
+build/
+.idea/
+.env
